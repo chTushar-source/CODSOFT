@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background: #0f172a;
+    color: #fff;
+    line-height: 1.5;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #111827;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 28px;
+    color: #38bdf8;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: .3s;
+}
+
+nav ul li a:hover{
+    color: #38bdf8;
+}
+
+.hero{
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    gap: 50px;
+}
+
+.herotext h1{
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.herotext span{
+    color: #38bdf8;
+}
+
+.herotext p{
+    font-size: 22px;
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+.heroimage img{
+    width: 500px;
+    height:500px;
+    object-fit:cover;
+    border-radius:15%;
+    border:5px solid #38bdf8;
+    transition:0.4s;
+}
+
+.hero-image img:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    background:#111827;
+    padding:20px;
+    text-align:center;
+    color:#94a3b8;
+}
