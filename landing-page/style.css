@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#111827;
+    color:white;
+}
+
+header{
+    background:#1f2937;
+    padding:20px 80px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#f97316;
+    font-size:30px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#f97316;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(to right,#111827,#1f2937);
+}
+
+.hero-text{
+    width:60%;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    line-height:30px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#f97316;
+    color:white;
+    padding:12px 30px;
+    text-decoration:none;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:#f97316;
+}
+
+section{
+    padding:80px;
+}
+
+section h2{
+    text-align:center;
+    font-size:40px;
+    color:#f97316;
+    margin-bottom:30px;
+}
+
+section p{
+    text-align:center;
+    line-height:28px;
+}
+
+.service-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    background:#1f2937;
+    padding:30px;
+    width:300px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 5px 10px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#f97316;
+    margin-bottom:15px;
+}
+
+.card h1{
+    margin:20px 0;
+    color:white;
+}
+
+.plan-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+#contact p{
+    margin:10px;
+}
+
+footer{
+    background:#1f2937;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
